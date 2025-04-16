@@ -1,18 +1,25 @@
-## Getting Started
+# JavaCalculator 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A fully functional *command-line calculator* written in Java.  
+Designed to perform basic arithmetic operations, extract nth roots, and log operation history to a file.  
+Includes user input validation, ANSI-colored output, and a clean, menu-driven interface.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- ✅ Addition, Subtraction, Multiplication, Division
+- ✅ nth Root calculation (e.g., √ or ⁿ√x)
+- ✅ Modulus (Remainder)
+- ✅ History of performed operations
+- ✅ File logging of each result (`resultOperation.txt`)
+- ✅ Clear and reset input anytime
+- ✅ Colorized output using ANSI escape codes
+- ✅ Input validation and exception handling
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Requirements
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java Development Kit (JDK) 8 or above
+- Git (optional, for version control)
